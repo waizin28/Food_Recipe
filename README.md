@@ -39,7 +39,7 @@ Make sure you have the following installed on your system:
 
 ## Technologies Used
 
-- **Frontend:** Next.js, HTML, CSS
+- **Frontend:** Next.js (14), HTML, CSS
 - **Database:** SQLite
   
 ## Contributing
