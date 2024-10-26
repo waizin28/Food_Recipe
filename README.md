@@ -16,7 +16,6 @@
 ### Prerequisites
 Make sure you have the following installed on your system:
 - **Node.js** and **npm** for managing dependencies
-- **MongoDB** (if using a local database) or a MongoDB cloud service
   
 ### Installation
 
@@ -31,35 +30,17 @@ Make sure you have the following installed on your system:
     npm install
     ```
 
-3. **Configure Environment Variables**
-   Create a `.env` file in the project root and set the following variables:
-   ```
-   PORT=5000
-   MONGODB_URI=your_mongodb_uri
-   JWT_SECRET=your_secret_key
-   ```
-
 4. **Run the Application**
     ```bash
-    npm start
+    npm run dev
     ```
-   The app should now be running on `http://localhost:5000`.
+   The app should now be running on `http://localhost:3000`.
 
-## API Endpoints
-
-- **GET /api/recipes** - Retrieve all recipes
-- **POST /api/recipes** - Add a new recipe (authenticated users only)
-- **GET /api/recipes/:id** - Retrieve a single recipe by ID
-- **POST /api/users/register** - Register a new user
-- **POST /api/users/login** - Login a user
-- **GET /api/users/:id** - Get a user profile
 
 ## Technologies Used
 
-- **Frontend:** React, HTML, CSS
-- **Backend:** Node.js, Express.js
-- **Database:** MongoDB (Mongoose ORM)
-- **Authentication:** JSON Web Tokens (JWT)
+- **Frontend:** Next.js, HTML, CSS
+- **Database:** SQLite
   
 ## Contributing
 
