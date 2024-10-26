@@ -1,14 +1,21 @@
 import { getMeal } from '@/lib/meals';
 import classes from './page.module.css';
 import Image from 'next/image';
+import { notFound } from 'next/navigation';
 export default function MealDetailsPage({ params }) {
   const meal = getMeal(params.mealSlug);
+
+  if (!meal) {
+    // show closet not found error page
+    notFound();
+  }
+
   meal.instructions = meal.instructions.replace(/\n/g, '<br/>');
   return (
     <>
       <header className={classes.header}>
         <div className={classes.image}>
-          <Image src={meal.image} alt={meal.title} fill />
+          <Image src={meal.image} alt={meal.title} sizes='100%' fill />
         </div>
         <div className={classes.headerText}>
           <h1>{meal.title}</h1>
