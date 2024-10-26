@@ -21,8 +21,8 @@ Make sure you have the following installed on your system:
 
 1. **Clone the Repository**
     ```bash
-    git clone https://github.com/your-username/foodie-share.git
-    cd foodie-share
+    git clone https://github.com/your-username/Food_Recipe.git
+    cd Food_Recipe
     ```
 
 2. **Install Dependencies**
