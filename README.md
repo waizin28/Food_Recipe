@@ -1,4 +1,4 @@
-<img width="1728" alt="Screenshot 2024-10-26 at 12 10 59 AM" src="https://github.com/user-attachments/assets/12f16c2e-e943-420a-a630-08d58c270567">
+<img width="1728" alt="Screenshot 2024-10-26 at 12 21 44 AM" src="https://github.com/user-attachments/assets/11675950-2c6c-4b3d-bf56-006da87a5287">
 
 # FoodieShare 🍲 
 
