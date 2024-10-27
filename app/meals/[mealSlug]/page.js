@@ -3,8 +3,15 @@ import classes from './page.module.css';
 import Image from 'next/image';
 import { notFound } from 'next/navigation';
 
+// Generating meta data for dynamic page
 export async function generateMetadata({ params }) {
   const meal = getMeal(params.mealSlug);
+
+  if (!meal) {
+    // show closet not found error page
+    notFound();
+  }
+  
   return {
     title: meal.title,
     description: meal.summary,
